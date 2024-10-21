@@ -1,0 +1,10 @@
+markdown: "barriers" # without extension
+embed_resources: true
+bibliography:
+    - "references.bib"
+citeproc: true
+csl: "assets/apa.csl"
+mathml: true
+assets: "assets"
+exclude:
+    - README
