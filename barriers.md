@@ -117,6 +117,18 @@ revealjs-url: "assets/reveal.js-5.1.0/"
 :::
 
 
+## enclosures
+
+:::::::::::::: {.columns}
+::: {.column width="50%" .small-figcaption}
+![OSM road types: motorway, primary, secondary](figures/enclosures.png)
+:::
+::: {.column width="50%" .small-figcaption}
+![all roads from OSM](figures/house_blocks.png)
+:::
+::::::::::::::
+
+
 ## building a network
 
 :::::::::::::: {.columns}
