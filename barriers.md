@@ -398,7 +398,7 @@ open data (YJMob100K): [@yabe2024yjmob100k] | preprocessing (preprint): [@pinter
 :::
 
 
-## BCR × Nagoya
+## BCR × Nagoya {visibility=hidden}
 
 ![](figures/road1_bcr.png){width=650}
 
@@ -417,7 +417,9 @@ open data (YJMob100K): [@yabe2024yjmob100k] | preprocessing (preprint): [@pinter
 :::::: {.column width="50%"}
 **takaway**
 
-- there is a barrier effect 
+- there is a barrier effect in human mobility
+    - with hierarchy
+    - administrative boundaries also trigger it
 - which affects people differently based on background
 
 ::::::
