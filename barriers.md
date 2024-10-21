@@ -245,6 +245,27 @@ revealjs-url: "assets/reveal.js-5.1.0/"
 ::::::::::::::
 
 
+## Nagoya metropolitan area
+
+:::::::::::::: {.columns}
+:::::: {.column width="50%"}
+![municipality boundaries<br>wards (dotted)](figures/nagoya_communities_res_5.png){width=335}
+::::::
+:::::: {.column width="50%" .fragment}
+![higher order roads](figures/nagoya_communities_roads_res_5.png){width=335}
+::::::
+::::::::::::::
+
+::: {.text-smaller}
+open data (YJMob100K): [@yabe2024yjmob100k] | preprocessing (preprint): [@pinter2024revealing]
+:::
+
+::: notes
+- I replicated this using another data set about the Nagoya metropolitan, which follows 100.000 people in a 100 km by 100 km metropolitan area
+- we can see that Louvain communities align with the municipality boundaries pretty well, though sometimes multiple municipalities form a community just as we saw it in the case of Budapest
+- what does not align at all is the road network, which is a huge difference between the Budapest and the Japanese results
+:::
+
 
 # barrier crossing ratio
 
