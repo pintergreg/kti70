@@ -368,15 +368,17 @@ but the classification is not restricted to Budapest
 $$ log BCR_{\gamma, n}^{c} = \alpha + \beta_1\log{D_c} + \beta_2\log{AC_j} + \epsilon $$
 
 ::: {.text-smaller}
-$AC_j$ complexity of amenity portfolio of the visited $j$ location as proposed by [@juhasz2023amenity]
-
+- $AC_j$ complexity of amenity portfolio of the visited $j$ location as proposed by [@juhasz2023amenity]
+    - negative correlation
+- $D_c$ is the geographical distance of the home location of citizen $c$ from the city center
+    - positive correlation
 :::
 :::
 
-![](figures/ibcr_avg_visitation_complexity.png){width=600}
+![](figures/ibcr_avg_visitation_complexity.png){width=550}
 
 
-# Nagoya metropolitan area
+# Nagoya metropolitan area {visibility=hidden}
 
 :::::::::::::: {.columns}
 :::::: {.column width="50%"}
@@ -414,8 +416,8 @@ open data (YJMob100K): [@yabe2024yjmob100k] | preprocessing (preprint): [@pinter
 #
 
 :::::::::::::: {.columns}
-:::::: {.column width="50%"}
-**takaway**
+:::::: {.column width="60%"}
+**takeaway**
 
 - there is a barrier effect in human mobility
     - with hierarchy
@@ -423,7 +425,7 @@ open data (YJMob100K): [@yabe2024yjmob100k] | preprocessing (preprint): [@pinter
 - which affects people differently based on background
 
 ::::::
-:::::: {.column width="50%"}
+:::::: {.column width="40%"}
 **future work**
 
 - socio-economic status
@@ -445,8 +447,6 @@ Gergő Pintér, <span class="text-color-lightblue">gergo.pinter&ThinSpace;&#64;&
 :::::::::::: {.column width="50%"}
 this presentation is available online: [[pintergreg.github.io/kti70](https://pintergreg.github.io/kti70)]{.text-size-2 .anchor-color-lightblue}
 
-
-
 ::::::::::::
 :::::::::::: {.column width="45%"}
 already available on [[arXiv](https://arxiv.org/abs/2312.11343)]{.anchor-color-lightblue}:<br>2312.11343
@@ -460,6 +460,56 @@ already available on [[arXiv](https://arxiv.org/abs/2312.11343)]{.anchor-color-l
 # references {visibility=uncounted}
 
 ::: {#refs}
+:::
+
+
+# home residence based BCR evaluation strategies {visibility=uncounted}
+
+::::::::: {.r-stack}
+:::::: {.fragment data-fragment-index=0 .current-visible}
+![](figures/home_communities_orig.drawio.png){width=500}
+::::::
+:::::: {.fragment data-fragment-index=1}
+::: {.alpha-50}
+![](figures/home_communities_orig.drawio.png){width=500}
+:::
+::::::
+:::::::::
+:::::: {.fragment data-fragment-index=1}
+![](figures/home_communities_own.drawio.png){width=500}
+::::::
+
+::: notes
+- before I go further, I have to talk about the home residence based BCR evaluation strategies
+- as there are two possible options
+- first, to built a network, apply community detection, then classify the edges by home residence
+    - but use the communities based on the whole network,
+    - I used this for the previous results
+- or classify the edges, built multiple networks and apply community detection separately to those networks
+:::
+
+
+## BCR based on home location {visibility=uncounted}
+
+::::::::::::::: {.columns}
+:::::::::::: {.column width="30%"}
+:::::: {}
+![](figures/map_with_legend.png)
+::::::
+::::::::::::
+:::::::::::: {.column width="70%"}
+:::::: {}
+![](figures/bcr.png)
+::::::
+::::::::::::
+:::::::::::::::
+
+::: notes
+- then we got this
+- not much different, but more consistent
+    - the curves are smoother, and
+    - and the order of the home clusters with the barrier types are the same
+- there's a consistent difference between the western and the eastern agglomeration
 :::
 
 
