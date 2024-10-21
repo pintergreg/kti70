@@ -400,19 +400,6 @@ open data (YJMob100K): [@yabe2024yjmob100k] | preprocessing (preprint): [@pinter
 :::
 
 
-## BCR × Nagoya {visibility=hidden}
-
-![](figures/road1_bcr.png){width=650}
-
-::: notes
-- I also calculated the individual barrier crossing ratio for the Japanese data
-- the trends are the same, but that's the less interesting
-- I wanted to replicate the experiment distinguishing the people by residence, so I formed two categories, people having home in and out of Nagoya
-- however, the barrier effect is just the opposite compared to Budapest regarding Nagoya dwellers and others
-- it still needs more study to completely understand the reason of this; my educated guess is that the different transportation culture leads to the different community alignments, which cases the opposite relation in the BCR
-:::
-
-
 #
 
 :::::::::::::: {.columns}
@@ -516,3 +503,16 @@ already available on [[arXiv](https://arxiv.org/abs/2312.11343)]{.anchor-color-l
 # stop distribution of agglomeration dwellers {visibility=uncounted}
 
 ![](figures/stop_distribution_sankey.png){width=720}
+
+
+# BCR × Nagoya {visibility=uncounted}
+
+![](figures/road1_bcr.png){width=650}
+
+::: notes
+- I also calculated the individual barrier crossing ratio for the Japanese data
+- the trends are the same, but that's the less interesting
+- I wanted to replicate the experiment distinguishing the people by residence, so I formed two categories, people having home in and out of Nagoya
+- however, the barrier effect is just the opposite compared to Budapest regarding Nagoya dwellers and others
+- it still needs more study to completely understand the reason of this; my educated guess is that the different transportation culture leads to the different community alignments, which cases the opposite relation in the BCR
+:::
