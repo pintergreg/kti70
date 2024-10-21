@@ -1,7 +1,7 @@
 ---
 title: Barriers of Urban Mobility
 author: Gergő Pintér^1^ and Balázs Lengyel^1,2,3^
-date: "21 October 2024<br>pintergreg.github.io/kti70"
+date: "KTI70, 21 October 2024<br>pintergreg.github.io/kti70"
 institute: >-
     ^1^ANETI Lab, Corvinus University of Budapest<br>
     ^2^ANETI Lab, HUN-REN Center for Economic and Regional Sciences<br>
